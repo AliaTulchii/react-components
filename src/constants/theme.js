@@ -11,4 +11,5 @@ export const theme = {
         lightYellow: '#fefba4',
         titleBgrd: '#5bb524',
     },
+    spacing: value => `${4 * value}px`,
 };

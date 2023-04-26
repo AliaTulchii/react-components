@@ -5,7 +5,7 @@ export const Card = styled.div`
 width: 300px;
 position: relative;
 border: ${props => `2px dashed ${props.theme.colors.black}`};
-padding: 8px;
+padding: ${props => props.theme.spacing(2)};
 margin:15px;
 border-radius: 4px;
 background-color: ${props => props.theme.colors.lightYellow};
